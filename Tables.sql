@@ -49,11 +49,11 @@ Customerid int,
 TotalAmount decimal(12,2),
 );
 --inserting values in order customer table--
-Insert Into Order_Cust(1,14-10-2022,'456000',02,654.56)
-Insert Into Order_Cust(2,15-10-2022,'765000',03,654.52)
-Insert Into Order_Cust(3,16-10-2022,'112000',06,634.53)
-Insert Into Order_Cust(4,17-10-2022,'489000',06,654.56);
-Insert Into Order_Cust(5,18-10-2022,'40067000',08,654.55)
+Insert Into Order_Cust values (1,14-10-2022,'456000',02,654.56)
+Insert Into Order_Cust values (2,15-10-2022,'765000',03,654.52)
+Insert Into Order_Cust values (3,16-10-2022,'112000',06,634.53)
+Insert Into Order_Cust values (4,17-10-2022,'489000',06,654.56);
+Insert Into Order_Cust values (5,18-10-2022,'40067000',08,654.55)
 select * from Order_Cust
 
 --index of orders table--
